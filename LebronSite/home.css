@@ -13,3 +13,44 @@ html, body {
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
  
 }
+
+.bubble 
+{
+position: relative;
+width: 250px;
+height: 40px;
+padding: 0px;
+background: #FFFFFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: #7F878F solid 4px;
+}
+
+.bubble:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 7px 9px 0;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -7px;
+left: 207px;
+}
+
+.bubble:before 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 10px 12px 0;
+border-color: #7F878F transparent;
+display: block;
+width: 0;
+z-index: 0;
+bottom: -14px;
+left: 204px;
+}
