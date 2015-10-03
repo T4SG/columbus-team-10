@@ -1,4 +1,4 @@
-body {
+html, body {
 /*css for full size background image*/
   background: url(http://static2.businessinsider.com/image/4e9c588cecad044c6a00001f/lebron-james-signed-only-a-2-year-contract-with-cleveland-and-it-was-a-genius-move.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
